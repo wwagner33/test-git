@@ -5,7 +5,7 @@
 O GIT CLONE é equivalente a:
 
 > git init
-> git remote add origin <https://github.com/wwagner33/test-git.git>
+> git remote add origin https://github.com/wwagner33/test-git.git
 > git pull origin main #no caso do Github é o MAIN mas poderia ser master
 
 # Criando um branch para cedar a feature
