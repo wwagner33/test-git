@@ -49,6 +49,7 @@ O GIT CLONE é equivalente a:
 
 # Para fazer merge com branchs locais
 > git checkout main #ou o nome do master usado.
+> 
 > git merge <nome_do_branch>
 
 # Fontes:
