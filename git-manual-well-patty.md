@@ -52,7 +52,21 @@ O GIT CLONE é equivalente a:
 > 
 > git merge <nome_do_branch>
 
+# Para enviar para um remoto "staging"
+git remote set-head $REMOTE_NAME $BRANCH #modifica o HEAD para o branch remoto
+git branch -u <origin/<remoto> <testando-test> #Criei meu branch local
+
+Alternativa:
+git branch <nome_branch>
+
+git checkout <nome_branch> #Vai para seu branch
+git add --all
+git commit -m "a frase fe comentário"
+git pull
+git push origin teste-branch
+
 # Fontes:
 
 https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+https://devconnected.com/how-to-push-git-branch-to-remote/
