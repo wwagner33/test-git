@@ -1,4 +1,4 @@
-# Para colunar e iniciar um projeto
+# Para clonar e iniciar um projeto
 
 > git clone <endereço do repositório conforme fornecido pelo gerenciador de repositórios
 
