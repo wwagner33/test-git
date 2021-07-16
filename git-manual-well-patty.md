@@ -64,6 +64,9 @@ git add --all
 git commit -m "a frase fe comentário"
 git pull
 git push origin teste-branch
+  
+  # Para remover todos os itens que estão para ser dado commit
+  git reset HEAD <file>
 
 # Fontes:
 
